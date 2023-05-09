@@ -8,7 +8,7 @@
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 
     <!-- custom css file link -->
     <link rel="stylesheet" href="css/style.css">
@@ -16,14 +16,14 @@
 </head>
 <body>
 <!-- header setion start -->
-    <header>
-        <a href="#" class="logo"><i class="fas-fa-untensils"></i>roadu.</a>
+<header>
+    <a href="#" class="logo"><i class="fas-fa-untensils"></i>roadu.</a>
         <nav class="navbar">
             <a class="active" href="#home">home</a>
             <a href="#dishes">dishes</a>
             <a href="#about">about</a>
             <a href="#menu">menu</a>
-            <a href="#review">review</a>
+            <a href="#review">review</a>                
             <a href="#order">order</a>
         </nav>
 
@@ -33,9 +33,7 @@
             <a href="#" class="fas fa-heart"></a>
             <a href="#" class="fas fa-shopping-cart"></a>
         </div>
-
-
-    </header>
+</header>
 <!-- header setion ends -->
 
 <!-- search form -->
@@ -46,9 +44,59 @@
 </form>
 <!-- search form ends -->
 
+<!-- Home section starts -->
+<section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Dish</span>
+                    <h3>podi masala dose</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/dose.webp" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Dish</span>
+                    <h3>Podi Idli</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/Idli-Podi-and-Podi-Idly.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Dish</span>
+                    <h3>Onion Uttapam</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/onion_uttapam.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
 
 
-    <!-- custom js file link -->
-    <script src="script.js"></script>
+<!-- Home section ends -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!-- custom js file link -->
+<script src="script.js"></script>
 </body>
 </html>
